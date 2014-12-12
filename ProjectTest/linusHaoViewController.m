@@ -19,6 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self dotImageset];
+    
+//    self.view.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"index_back.jpg"] ];
 }
 
 - (void)didReceiveMemoryWarning

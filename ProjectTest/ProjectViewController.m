@@ -101,7 +101,7 @@
 //处理单指事件
 - (void)BtnClick:(UITapGestureRecognizer *)imageTap
 {
-//    NSLog(@"11111111");
+    NSLog(@"11111111");
     [self performSegueWithIdentifier:@"imageBrowser" sender:self];
 }
 
